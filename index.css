@@ -43,7 +43,7 @@ body{
     height: 100%;
     width: 50%;
     border: 0px solid blue;
-    background: url('assets/bg1.png');
+    background: url('Assets/bg1.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -92,7 +92,7 @@ span5{
 .img-about-ctr{
     height: 100%;
     width: 50%;
-    background: url('assets/bg3.jpg');
+    background: url('Assets/bg3.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 500px 300px;
@@ -139,7 +139,7 @@ span5{
     height: 100%;
     width: 100%;
     margin: 0 auto;
-    background: url('assets/bg2.jpg');
+    background: url('Assets/bg2.jpg');
     background-repeat: no-repeat;
     background-size: 800px 300px;
     background-position: center center;
