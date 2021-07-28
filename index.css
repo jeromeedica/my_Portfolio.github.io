@@ -167,7 +167,7 @@ span5{
 
 .img-story-ctr{
     margin-top: 28px;
-    border: 1px solid red;
+    border: 0px solid red;
     height: 300px;
     width: 70%;
     background: url('https://images.unsplash.com/photo-1533294455009-a77b7557d2d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80');
@@ -711,7 +711,7 @@ span5{
         width: 90%;
         margin: 0 auto;
         background: none;
-        border: 1px solid red;
+        border: 0px solid red;
         display: flex;
         align-items: center;
         flex-direction: column;
