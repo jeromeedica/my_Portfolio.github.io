@@ -11,19 +11,31 @@
   nav{
     position: fixed;
     right: 0;
+    height: 18%;
+    width: 101%;
+    z-index: 99;
+    background: #EF3327;
+    border-bottom: 0px solid black;
+    box-shadow: 0px 0px 8px #888888;
+    transform: rotate(-6deg);    
+  
+  }
+  nav h1{
     height: auto;
     width: 100%;
-    z-index: 99;
-  }
-  label.logo{
-    color: #4aed68;
-    font-size: 1.5rem;
-    line-height: 80px;
+    max-width: 200px;
+    color: black;
     font-weight: bold;
-    margin-left: 60px;
-    
+    font-size: 40px;
+    border: 2.9px solid gray;
+    border-style: dotted;
+    transform: rotate(6deg);
+    margin: 32px 500px;
+    padding: 0 1%;
+  
   }
-  nav ul{
+
+  /* nav ul{
     float: right;
     margin-right: 100px;
   }
@@ -54,6 +66,42 @@
   #check{
     display: none;
   }
+  */
 
 
- 
+  @media screen and (max-width: 1024px){
+    nav{
+      height: 9.5%;
+    }
+
+    nav h1 {
+      margin: 40px 300px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+      nav{
+        height: 9.5%;
+      }
+
+      nav h1 {
+        margin: 27px 190px;
+        font-size: 33px;
+        height: auto;
+        width: fit-content;
+      }
+  } 
+
+  @media screen and (max-width: 414px){
+    nav{
+      height: 8.5%;
+    }
+
+    nav h1 {
+      margin: 16.5px 67px;
+      font-size: 23px;
+      height: auto;
+      width: fit-content;
+    }
+} 
+  
